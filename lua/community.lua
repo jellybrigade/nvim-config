@@ -5,6 +5,7 @@
 ---@type LazySpec
 return {
   "AstroNvim/astrocommunity",
+  { import = "astrocommunity.recipes.ai" },
   { import = "astrocommunity.colorscheme.gruvbox-nvim" },
   { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.pack.go" },
@@ -36,7 +37,6 @@ return {
   { import = "astrocommunity.session.vim-workspace" },
   { import = "astrocommunity.recipes.diagnostic-virtual-lines-current-line" },
   { import = "astrocommunity.recipes.cache-colorscheme" },
-  { import = "astrocommunity.recipes.ai" },
   { import = "astrocommunity.recipes.picker-lsp-mappings" },
   -- import/override with your plugins folder
 }
